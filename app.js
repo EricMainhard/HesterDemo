@@ -55,7 +55,7 @@ class UI{
         let result = '';
         products.forEach(product => {
             result += 
-            `<div class="product animated pulse">
+            `<div class="product">
                 <div class="product_image_container">
                     <img src="../public/images/${product.image}" alt="${product.title}" class="product_image">
                     <button class="addToCart" data-id="${product.id}">
