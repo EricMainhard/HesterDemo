@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap" rel="stylesheet">
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../public/css/style.css">
+    <title>Hester Demo</title>
+</head>
+<body>
+    <header class="hero flex">
+        <nav class="flex hero_nav">
+            <div class="nav_left">
+                <div class="hamMenu">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="desktop_links">
+                    <span>Shop</span>
+                    <span>Our Story</span>
+                    <span>Blog</span>
+                </div>
+            </div>
+            <div class="logo">
+                <a href="#">
+                    <h2 class="logoText">Hester</h2>
+                </a>
+            </div>
+            <div class="nav_right">
+                <div class="login desktop_links">
+                        <span id="login">Login</span>
+                </div>
+                <div class="cart">
+                    <i class="fas fa-shopping-cart">
+                        <span id="cartQty"></span>
+                    </i>
+                </div>
+            </div>
+        </nav>
+        <div class="banner-txt-container flex">
+            <h1 class="centerTitles">Pickle Perfection</h1>
+            <button class="btn-white">
+                <a href="#">
+                    Shop Now
+                </a>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="home-products">
+            <div class="cartDrawer">
+                <div class="cart_header">
+                    <h3> Cart </h3>
+                    <i class="fas fa-times" id="closeCart"></i>
+                </div>
+                <div class="cart_body">
+
+                </div>
+                <div class="cart_footer">
+                    <div class="subtotal">
+                        <h3> SUBTOTAL </h3>
+                        <h3 id="cart_subtotal">$</h3>
+                    </div>
+                    <button class="clear-cart">
+                        <h4>CLEAR CART</h4>
+                    </button>
+                    <button class="checkout">
+                        <h4>CHECK OUT</h4>
+                    </button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="text-container flex centerTitles">
+                    <h2>Only the Highest Quality Ingredients</h2>
+                    <p>In fact, we grow most of them ourselves on our 17-acre farm!</p>
+                </div>
+                <div class="productsContainer">
+                    
+                </div>
+            </div>
+        </section>
+        <div class="home_banner">
+
+        </div>
+        <section class="subscribe">
+            <div class="container">
+                <div class="text-container">
+                    <h2>What's the Dill?</h2>
+                    <p>Sign up with your email address to receive news and updates.</p>
+                    <button class="btn-pink">
+                        <a href="#">
+                            Subscribe
+                        </a>
+                    </button>
+                    <div class="gallery">
+                        <div class="container">
+                            <div class="gallery_item">
+                                <img src="../public/images/img_7.jpg" alt="" class="gallery_image">
+                            </div>
+                            <div class="gallery_item">
+                                <img src="../public/images/img_5.jpg" alt="" class="gallery_image">
+                            </div>
+                            <div class="gallery_item">
+                                <img src="../public/images/img_4.jpg" alt="" class="gallery_image">
+                            </div>          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h4 class="footer_text footer_header">
+            Hester
+        </h4>
+        <div class="footer_info">
+            <p class="footer_text">123 Demo Street</p>
+            <p class="footer_text">New York, NY 10000</p>
+            <p class="footer_text">(555) 555-555</p>
+        </div>
+        <div class="footer_credits">
+            <p class="footer_text">Made with 
+                <a href="#">
+                    Squarespace
+                </a>
+            </p>
+        </div>
+        <div class="footer_rrss">
+            <i class="fab fa-instagram footer_text"></i>
+        </div>
+    </footer>
+</body>
+<script src="../app.js"></script>
+</html>
